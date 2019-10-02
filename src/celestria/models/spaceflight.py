@@ -13,11 +13,12 @@ class SpaceFlight(models.Model):
     ARRIVED = 3
     CANCELLED = 3
 
-    TYPE_CHOICES = (
-        (DOMESTIC, 'Domestic'),
-        (INTERPLANETARY, 'Interplanetary'),
-        (INTERSTELLAR, 'Interstellar'),
-        (INTERGALACTIC, 'Intergalactic'),
+    STATUS_CHOICES = (
+        (ON_HOLD, 'On Hold'),
+        (BOARDING, 'Boarding'),
+        (TRAVELLING, 'Travelling'),
+        (ARRIVED, 'Arrived'),
+        (CANCELLED, 'Cancelled'),
     )
 
     number = models.CharField(max_length=250)
@@ -32,6 +33,8 @@ class SpaceFlight(models.Model):
     actual_arrival_time = models.DateTimeField(
         null=True, blank=True)
     estimated_duration = models.TimeField()
+    status = models.IntegerField(
+        choices=STATUS_CHOICES, default=ON_HOLD)
     ticket_price = models.DecimalField(
         default=0, max_digits=32,
         decimal_places=2, null=True, blank=True)
