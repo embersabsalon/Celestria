@@ -9,12 +9,18 @@ from authorizing_body import AuthorizingBody
 class AccountProfile(models.Model):
     CUSTOMER = 0
     STAFF = 1
+    ADMIN = 2
     USER_TYPE_CHOICES = (
         (CUSTOMER, 'Customer'),
-        (STAFF, 'Staff'),)
+        (STAFF, 'Staff'),
+        (ADMIN, 'Admin'),)
 
-    user = models.OneToOneField(User, related_name='user_profile')
-    registered_from = models.ForeignKey(AuthorizingBody)
+    user = models.OneToOneField(User, related_name='account_profile')
+    registered_from = models.ForeignKey(
+        AuthorizingBody, related_name='registered_accounts')
+    current_body = models.ForeignKey(
+        AuthorizingBody, related_name='current_accounts',
+        null=True, blank=True)
     avatar = models.CharField(max_length=255, blank=True)
     is_verified = models.BooleanField(default=False)
     user_type = models.IntegerField(

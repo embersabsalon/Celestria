@@ -20,5 +20,6 @@ class SpacePort(models.Model):
 
     name = models.CharField(max_length=250)
     description = models.TextField(null=True, blank=True)
-    authorizing_body = models.ForeignKey(AuthorizingBody)
+    authorizing_body = models.ForeignKey(
+        AuthorizingBody, related_name='space_ports')
     type = models.IntegerField(choices=TYPE_CHOICES, default=INTERPLANETARY)
