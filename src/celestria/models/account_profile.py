@@ -25,6 +25,7 @@ class AccountProfile(models.Model):
     is_verified = models.BooleanField(default=False)
     user_type = models.IntegerField(
         choices=USER_TYPE_CHOICES, default=CUSTOMER)
+    registered_on = models.DateTimeField(auto_now_add=True)
 
     password_reset_token = models.CharField(
         max_length=255, null=True, blank=True)
