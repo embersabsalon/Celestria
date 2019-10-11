@@ -11,7 +11,7 @@ class SpaceFlight(models.Model):
     BOARDING = 1
     TRAVELLING = 2
     ARRIVED = 3
-    CANCELLED = 3
+    CANCELLED = 4
 
     STATUS_CHOICES = (
         (ON_HOLD, 'On Hold'),
