@@ -22,7 +22,7 @@ class Ticket(models.Model):
         (REFUNDED, 'Refunded'),
     )
 
-    number = models.CharField(max_length=250)
+    number = models.CharField(max_length=250, unique=True)
     flight = models.ForeignKey(
         SpaceFlight, related_name='tickets')
     sold_to = models.OneToOneField(
