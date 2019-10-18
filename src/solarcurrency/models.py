@@ -14,15 +14,15 @@ class SolarCurrency(models.Model):
     Fields
         code: 4 letter code of currency as per
               Solar Standardization Authority 4217
-        actual name: actual currency name
-        convertion_rate_trac: convertion rate
+        actual_name: actual currency name
+        convertion_rate: convertion rate for
                               1 <This SolarCurrency>: x Terra Coins
     """
 
     code = models.CharField(max_length=4)
     actual_name = models.CharField(max_length=20)
-    convertion_rate_trac = models.DecimalField(
-        max_digits=32, decimal_places=4, default=1.0)
+    convertion_rate = models.DecimalField(
+        max_digits=32, decimal_places=8, default=1.0)
 
     class Meta:
         ordering = ['pk']

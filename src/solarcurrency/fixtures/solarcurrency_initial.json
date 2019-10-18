@@ -1,0 +1,56 @@
+[
+    {
+        "fields":{
+            "convertion_rate":1.0,
+            "code":"TRAC",
+            "actual_name" : "Terra Coin"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":1
+    },
+    {
+        "fields":{
+            "convertion_rate":0.00524,
+            "code":"MCRY",
+            "actual_name" : "Mercury Yokko"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":2
+    },
+    {
+        "fields":{
+            "convertion_rate":1.202,
+            "code":"VENW",
+            "actual_name" : "Venutian Wolke"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":3
+    },
+    {
+        "fields":{
+            "convertion_rate":0.642,
+            "code":"LUND",
+            "actual_name" : "Lunar Dollar"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":4
+    },
+    {
+        "fields":{
+            "convertion_rate":0.9241,
+            "code":"MRSK",
+            "actual_name" : "Martian Krasny"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":5
+    },
+    {
+        "fields":{
+            "convertion_rate":1.4511,
+            "code":"JPTR",
+            "actual_name" : "Jupiter Repa"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":6
+    },
+]

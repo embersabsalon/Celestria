@@ -8,7 +8,7 @@ from solarcurrency.models import SolarCurrency
 class SolarCurrencyAdmin(admin.ModelAdmin):
     model = SolarCurrency
     list_display = (
-        'code', 'actual_name', 'convertion_rate_trac')
+        'code', 'actual_name', 'convertion_rate')
 
 
 admin.site.register(SolarCurrency, SolarCurrencyAdmin)
