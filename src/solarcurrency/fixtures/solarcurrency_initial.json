@@ -46,11 +46,56 @@
     },
     {
         "fields":{
-            "convertion_rate":1.4511,
+            "convertion_rate":2.1511,
             "code":"JPTR",
             "actual_name" : "Jupiter Repa"
         },
         "model":"solarycurrency.solarycurrency",
         "pk":6
+    },
+    {
+        "fields":{
+            "convertion_rate":1.7027,
+            "code":"STNA",
+            "actual_name" : "Saturn Anillo"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":7
+    },
+    {
+        "fields":{
+            "convertion_rate":0.0784,
+            "code":"URNH",
+            "actual_name" : "Uranus Hai"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":8
+    },
+    {
+        "fields":{
+            "convertion_rate":1.4511,
+            "code":"URNX",
+            "actual_name" : "Uranus Xiao"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":9
+    },
+    {
+        "fields":{
+            "convertion_rate":1.102,
+            "code":"NPTB",
+            "actual_name" : "Neptune Bahari"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":10
+    },
+    {
+        "fields":{
+            "convertion_rate":0.892,
+            "code":"KPRS",
+            "actual_name" : "Kuiper Sten"
+        },
+        "model":"solarycurrency.solarycurrency",
+        "pk":11
     },
 ]
