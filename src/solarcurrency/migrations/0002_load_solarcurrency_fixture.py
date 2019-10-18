@@ -29,7 +29,7 @@ def backwards_func(apps, schema_editor):
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('currency', '0001_initial'),
+        ('solarcurrency', '0001_initial'),
     ]
 
     operations = [
