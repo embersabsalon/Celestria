@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+from environment import get_environment_variables
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -125,5 +126,5 @@ STATIC_URL = '/static/'
 # Environmental variables
 
 # Set how many years in the future for this fictional world
-YEARS_IN_THE_FUTURE = get_settings_variable(
+YEARS_IN_THE_FUTURE = get_environment_variables(
     'YEARS_IN_THE_FUTURE', default='200', required=False, parser=int)
