@@ -120,3 +120,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# Environmental variables
+
+# Set how many years in the future for this fictional world
+YEARS_IN_THE_FUTURE = get_settings_variable(
+    'YEARS_IN_THE_FUTURE', default='200', required=False, parser=int)
