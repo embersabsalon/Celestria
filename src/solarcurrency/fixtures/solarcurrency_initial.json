@@ -65,20 +65,11 @@
     {
         "fields":{
             "convertion_rate":0.0784,
-            "code":"URNH",
-            "actual_name" : "Uranus Hai"
-        },
-        "model":"solarycurrency.solarycurrency",
-        "pk":8
-    },
-    {
-        "fields":{
-            "convertion_rate":1.4511,
             "code":"URNX",
             "actual_name" : "Uranus Xiao"
         },
         "model":"solarycurrency.solarycurrency",
-        "pk":9
+        "pk":8
     },
     {
         "fields":{
@@ -87,7 +78,7 @@
             "actual_name" : "Neptune Bahari"
         },
         "model":"solarycurrency.solarycurrency",
-        "pk":10
+        "pk":9
     },
     {
         "fields":{
@@ -96,6 +87,6 @@
             "actual_name" : "Kuiper Sten"
         },
         "model":"solarycurrency.solarycurrency",
-        "pk":11
+        "pk":10
     },
 ]
