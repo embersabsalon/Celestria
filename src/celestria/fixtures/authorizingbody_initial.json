@@ -14,7 +14,7 @@
         "fields":{
             "name":"Luna",
             "description":"Lunar authorizing body located in Apollo Lunar Command Center, Traquility Sea",
-            "type": 0,
+            "type": 1,
             "is_active": true,
             "docking_tax": 0.02,
         },
@@ -42,5 +42,27 @@
         },
         "model":"celestria.authorizingbody",
         "pk":4
-    }
+    },
+    {
+        "fields":{
+            "name":"Mercury",
+            "description":"Mercury authorizing body located in Amaterasu Grand SpaceYard, Caloris Basin",
+            "type": 0,
+            "is_active": true,
+            "docking_tax": 0.21,
+        },
+        "model":"celestria.authorizingbody",
+        "pk":5
+    },
+    {
+        "fields":{
+            "name":"Jupiter",
+            "description":"Jupiter authorizing body located in Grand Hanover Floating Fortress, Bourbon District",
+            "type": 0,
+            "is_active": true,
+            "docking_tax": 0.10,
+        },
+        "model":"celestria.authorizingbody",
+        "pk":6
+    },
 ]
