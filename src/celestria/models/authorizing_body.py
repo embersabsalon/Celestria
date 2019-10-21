@@ -7,9 +7,10 @@ from django.db import models
 class AuthorizingBody(models.Model):
     PLANET = 0
     MOON = 1
-    ASTEROID = 2
-    ARTIFICIAL_BODY = 3
-    OTHERS = 4
+    DWARF_PLANET = 2
+    ASTEROID = 3
+    ARTIFICIAL_BODY = 4
+    OTHERS = 5
 
     TYPE_CHOICES = (
         (PLANET, 'Planet'),
