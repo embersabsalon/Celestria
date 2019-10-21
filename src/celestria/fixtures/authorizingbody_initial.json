@@ -68,12 +68,23 @@
     {
         "fields":{
             "name":"Saturn",
-            "description":"Saturn authorizing body located in Trinidad , Bourbon District",
+            "description":"Saturn authorizing body located in Trinidad Floating Fortress, Santissima Sky District",
             "type": 0,
             "is_active": true,
             "docking_tax": 0.09,
         },
         "model":"celestria.authorizingbody",
-        "pk":6
+        "pk":7
+    },
+    {
+        "fields":{
+            "name":"Uranus",
+            "description":"Uranus authorizing body located in Sheji Grand Skyport, Sheji Sky District",
+            "type": 0,
+            "is_active": true,
+            "docking_tax": 0.05,
+        },
+        "model":"celestria.authorizingbody",
+        "pk":8
     },
 ]
