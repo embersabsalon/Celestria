@@ -16,7 +16,7 @@
             "description":"Lunar authorizing body located in Apollo Lunar Command Center, Traquility Sea",
             "type": 0,
             "is_active": true,
-            "docking_tax": 0,
+            "docking_tax": 0.02,
         },
         "model":"celestria.authorizingbody",
         "pk":2
@@ -27,20 +27,20 @@
             "description":"Venutian authorizing body located in The Yggsdrasil, Freyja Forest",
             "type": 0,
             "is_active": true,
-            "docking_tax": 0,
+            "docking_tax": 0.13,
         },
         "model":"celestria.authorizingbody",
-        "pk":2
+        "pk":3
     },
     {
         "fields":{
-            "name":"Venus",
-            "description":"Venutian authorizing body located in The Yggsdrasil, Freyja Forest",
+            "name":"Mars",
+            "description":"Martian authorizing body located in Perun Citadel, Olympus Mons",
             "type": 0,
             "is_active": true,
-            "docking_tax": 0,
+            "docking_tax": 0.06,
         },
         "model":"celestria.authorizingbody",
-        "pk":2
+        "pk":4
     }
 ]
