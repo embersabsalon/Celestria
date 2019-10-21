@@ -57,10 +57,21 @@
     {
         "fields":{
             "name":"Jupiter",
-            "description":"Jupiter authorizing body located in Grand Hanover Floating Fortress, Bourbon District",
+            "description":"Jupiter authorizing body located in Grand Hanover Floating Fortress, Bourbon Sky District",
             "type": 0,
             "is_active": true,
             "docking_tax": 0.10,
+        },
+        "model":"celestria.authorizingbody",
+        "pk":6
+    },
+    {
+        "fields":{
+            "name":"Saturn",
+            "description":"Saturn authorizing body located in Trinidad , Bourbon District",
+            "type": 0,
+            "is_active": true,
+            "docking_tax": 0.09,
         },
         "model":"celestria.authorizingbody",
         "pk":6
