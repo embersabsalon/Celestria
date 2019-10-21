@@ -87,4 +87,15 @@
         "model":"celestria.authorizingbody",
         "pk":8
     },
+    {
+        "fields":{
+            "name":"Neptune",
+            "description":"Neptune authorizing body located in Olorun SkyFortress, Yemoja Sky District",
+            "type": 0,
+            "is_active": true,
+            "docking_tax": 0.03,
+        },
+        "model":"celestria.authorizingbody",
+        "pk":8
+    },
 ]
