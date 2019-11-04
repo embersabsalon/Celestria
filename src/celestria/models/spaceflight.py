@@ -4,9 +4,10 @@ from __future__ import unicode_literals
 from django.db import models
 from spaceport import SpacePort
 from spacecraft import SpaceCraft
+from main.models.base_logged_model import BaseLoggedModel
 
 
-class SpaceFlight(models.Model):
+class SpaceFlight(BaseLoggedModel):
     ON_HOLD = 0
     BOARDING = 1
     TRAVELLING = 2

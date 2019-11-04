@@ -5,9 +5,10 @@ from django.db import models
 from spacecraft import SpaceCraft
 from spaceflight import SpaceFlight
 from account_profile import AccountProfile
+from main.models.base_logged_model import BaseLoggedModel
 
 
-class Ticket(models.Model):
+class Ticket(BaseLoggedModel):
     SELLING = 0
     RESERVED = 1
     BOARDED = 2
