@@ -1,11 +1,10 @@
 [
     {
         "fields":{
-            "name":"Terra",
-            "description":"Terran authorizing body located in Terran Cradle of Humanity, Ethiopia",
-            "type": 0,
-            "is_active": true,
-            "docking_tax": 0,
+            "name":"Palermo Spaceport",
+            "description":"Celestria HQ Spaceport in the Mediterranean Sea",
+            "authorizing_body": 1,
+            "type": 1,
         },
         "model":"celestria.spaceport",
         "pk":1
