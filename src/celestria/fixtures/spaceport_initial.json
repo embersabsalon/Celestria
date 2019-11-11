@@ -2,7 +2,17 @@
     {
         "fields":{
             "name":"Palermo Spaceport",
-            "description":"Celestria HQ Spaceport in the Mediterranean Sea",
+            "description":"Celestria Research and Luxury HQ in the Mediterranean Sea Space Elevator. Home spaceport for flights toward Venus, Saturn, Neptune and Kupier Belt.",
+            "authorizing_body": 1,
+            "type": 1,
+        },
+        "model":"celestria.spaceport",
+        "pk":1
+    },
+    {
+        "fields":{
+            "name":"Cape Canaveral Spaceport",
+            "description":"Celestria Commuters and Tourism HQ in the US East Space Elevator. Home spaceport for flights toward Luna and Jupiter",
             "authorizing_body": 1,
             "type": 1,
         },
