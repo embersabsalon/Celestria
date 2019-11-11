@@ -1,0 +1,13 @@
+[
+    {
+        "fields":{
+            "name":"Terra",
+            "description":"Terran authorizing body located in Terran Cradle of Humanity, Ethiopia",
+            "type": 0,
+            "is_active": true,
+            "docking_tax": 0,
+        },
+        "model":"celestria.spaceport",
+        "pk":1
+    }
+]
